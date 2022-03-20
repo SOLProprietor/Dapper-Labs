@@ -37,11 +37,9 @@ export const Spinner = () => {
           <div className="duck-body">
             <div></div>
           </div>
-
           <div className="duck-head">
             <div className="duck-eye"></div>
           </div>
-
           <div className="duck-mouth"></div>
         </div>
       </div>
@@ -55,7 +53,6 @@ export const Spinner = () => {
           <div className="duck-head">
             <div className="duck-eye"></div>
           </div>
-
           <div className="duck-mouth"></div>
         </div>
       </div>
@@ -69,7 +66,6 @@ export const Spinner = () => {
           <div className="duck-head">
             <div className="duck-eye"></div>
           </div>
-
           <div className="duck-mouth"></div>
         </div>
       </div>
