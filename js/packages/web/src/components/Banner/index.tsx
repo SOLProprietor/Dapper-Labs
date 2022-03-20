@@ -34,7 +34,7 @@ export const Banner = (props: {
   return (
     <>
       <div id="mobile-banner">
-        <img className="banner-img" src={props.src} />
+        <img className="banner-img" src={'/img/PondHub3sm.jpg'} />
         <div className="banner-content">
           <div id={'main-heading'}>{props.headingText}</div>
           <div id={'sub-heading'}>{props.subHeadingText}</div>
@@ -43,7 +43,7 @@ export const Banner = (props: {
       </div>
       <div
         id={'current-banner'}
-        style={{ backgroundImage: `url(${props.src})` }}
+        style={{ backgroundImage: `url('/img/PondHub3sm.jpg')` }}
       >
         <span id={'gradient-banner'}></span>
         <div id="banner-inner">

@@ -86,19 +86,10 @@
 .spinner{
   width: 300px;
   height: 100px;
+  background-color: #eee;
   overflow: hidden;
   position: relative;
   border-radius: 8px;
-}
-
-.duck-wrapper {
-  width: 100px;
-  height: 90px;
-  display: grid;
-  grid-template-columns: repeat(6,1fr);
-  grid-template-rows: repeat(4,1fr);
-  transform: scale(0.6) translateY(2rem);
-  animation: up-down 0.9s infinite linear;
 }
 
 .duck-helper{
@@ -158,6 +149,17 @@
   50% {
     transform: scale(0.6) translateY(2rem) rotate(10deg);
   }
+}
+
+.duck-wrapper {
+  width: 100px;
+  height: 90px;
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: repeat(4,1fr);
+  position: relative;
+  transform: scale(0.6) translateY(3rem);
+  animation: up-down 0.9s infinite linear;
 }
 
 .duck-body{

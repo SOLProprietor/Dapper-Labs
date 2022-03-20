@@ -41,8 +41,9 @@ export const Spinner = () => {
           <div className="duck-head">
             <div className="duck-eye"></div>
           </div>
+
+          <div className="duck-mouth"></div>
         </div>
-        <div className="duck-mouth"></div>
       </div>
 
       <div className="helper helper--2">
@@ -54,8 +55,9 @@ export const Spinner = () => {
           <div className="duck-head">
             <div className="duck-eye"></div>
           </div>
+
+          <div className="duck-mouth"></div>
         </div>
-        <div className="duck-mouth"></div>
       </div>
 
       <div className="helper helper--3">
@@ -67,8 +69,9 @@ export const Spinner = () => {
           <div className="duck-head">
             <div className="duck-eye"></div>
           </div>
+
+          <div className="duck-mouth"></div>
         </div>
-        <div className="duck-mouth"></div>
       </div>
 
       <div className="duck-land"></div>
