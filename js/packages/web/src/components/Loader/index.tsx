@@ -30,7 +30,7 @@ export const Spinner = () => {
     //  <span className="line line-8" />
     // <span className="line line-9" />
 
-    <div className="duckloader">
+    <div className="spinner">
       <div className="helper--1">
         <div className="duck-wrapper">
           <div className="duck-hide"></div>
