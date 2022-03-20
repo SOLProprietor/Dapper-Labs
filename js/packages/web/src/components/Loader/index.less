@@ -86,7 +86,7 @@
 .spinner{
   width: 300px;
   height: 100px;
-  background-color: green;
+  background-color: #eee;
   overflow: hidden;
   position: relative;
   border-radius: 8px;
@@ -110,15 +110,15 @@
   z-index:1;
 }
 
-.duck-helper--1{
+.helper--1{
   animation: duck-animation 3s infinite linear backwards;
 }
 
-.duck-helper--2{
+.helper--2{
   animation: duck-animation 3s 1s infinite linear backwards;
 }
 
-.duck-helper--3{
+.helper--3{
   animation: duck-animation 3s 2s infinite linear backwards;
 }
 
@@ -149,13 +149,15 @@
   }
 
 }
+
+
 @keyframes up-down{
   0%,100%{
-    transform: scale(0.6) translateY(2rem) rorate(-10deg);
+    transform: scale(0.6) translateY(2rem) rotate(-10deg);
   }
 
   50% {
-    transform: scale(0.6) translateY(2rem) rorate(10deg);
+    transform: scale(0.6) translateY(2rem) rotate(10deg);
   }
 }
 
