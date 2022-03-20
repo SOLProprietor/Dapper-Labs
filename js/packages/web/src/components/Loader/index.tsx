@@ -31,35 +31,42 @@ export const Spinner = () => {
     // <span className="line line-9" />
 
     <div className="spinner">
-      <div className="helper--1">
+      <div className="helper helper--1">
         <div className="duck-wrapper">
           <div className="duck-hide"></div>
-          <div className="duck-body"></div>
-          <div></div>
-          <div className="duck-head"></div>
-          <div className="duck-eye"></div>
+          <div className="duck-body">
+            <div></div>
+          </div>
+
+          <div className="duck-head">
+            <div className="duck-eye"></div>
+          </div>
         </div>
         <div className="duck-mouth"></div>
       </div>
 
-      <div className="helper--2">
+      <div className="helper helper--2">
         <div className="duck-wrapper">
           <div className="duck-hide"></div>
-          <div className="duck-body"></div>
-          <div></div>
-          <div className="duck-head"></div>
-          <div className="duck-eye"></div>
+          <div className="duck-body">
+            <div></div>
+          </div>
+          <div className="duck-head">
+            <div className="duck-eye"></div>
+          </div>
         </div>
         <div className="duck-mouth"></div>
       </div>
 
-      <div className="helper--3">
+      <div className="helper helper--3">
         <div className="duck-wrapper">
           <div className="duck-hide"></div>
-          <div className="duck-body"></div>
-          <div></div>
-          <div className="duck-head"></div>
-          <div className="duck-eye"></div>
+          <div className="duck-body">
+            <div></div>
+          </div>
+          <div className="duck-head">
+            <div className="duck-eye"></div>
+          </div>
         </div>
         <div className="duck-mouth"></div>
       </div>
