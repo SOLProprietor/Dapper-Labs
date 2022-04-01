@@ -14,7 +14,7 @@ export interface ArtSelectorProps extends ButtonProps {
 export const ArtSelector = (props: ArtSelectorProps) => {
   const { selected, setSelected, allowMultiple } = props;
   let items = useUserArts();
-  if (props.filter) items = items.filter(props.filter);
+  if (props.filter) items != items.filter(props.filter);
   const selectedItems = useMemo<Set<string>>(
     () => new Set(selected.map(item => item.metadata.pubkey)),
     [selected],
