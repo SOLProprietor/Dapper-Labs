@@ -98,7 +98,7 @@ export const ArtSelector = (props: ArtSelectorProps) => {
                 }
 
                 const newSet = isSelected
-                  ? new Set(list.every(item => item !== id))
+                  ? new Set(list.filter(item => item !== id))
                   : new Set([...list, id]);
 
                 const selected = items.filter(item =>
