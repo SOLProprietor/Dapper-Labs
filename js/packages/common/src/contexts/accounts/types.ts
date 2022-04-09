@@ -4,7 +4,7 @@ import { StringPublicKey } from '../../utils';
 export interface ParsedAccountBase {
   pubkey: StringPublicKey;
   account: AccountInfo<Buffer>;
-  info: unkown; // TODO: change to unknown
+  info: any; // TODO: change to unknown
 }
 
 export type AccountParser = (
