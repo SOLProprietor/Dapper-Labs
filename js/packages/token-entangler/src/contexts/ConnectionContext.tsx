@@ -102,6 +102,11 @@ export type ENV = 'mainnet-beta' | 'testnet' | 'devnet' | 'localnet';
 
 export const ENDPOINTS = [
   {
+    name: 'Dapper RPC' as ENV,
+    endpoint: 'https://twilight-wandering-resonance.solana-mainnet.quiknode.pro/3381bb042818c7ac5bff77ca264c33b7ed9ae4f9/',
+    ChainId: ChainId.MainnetBeta,
+  }
+  {
     name: 'mainnet-beta' as ENV,
     endpoint: 'https://api.metaplex.solana.com/',
     ChainId: ChainId.MainnetBeta,
