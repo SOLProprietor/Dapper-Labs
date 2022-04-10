@@ -28,6 +28,7 @@ interface BlockhashAndFeeCalculator {
 }
 
 export type ENDPOINT_NAME =
+  | 'Dapper-RPC'
   | 'mainnet-beta'
   | 'testnet'
   | 'devnet'
@@ -43,7 +44,7 @@ type Endpoint = {
 
 export const ENDPOINTS: Array<Endpoint> = [
   {
-    name: 'RPC',
+    name: 'Dapper-RPC',
     label: 'Dapper RPC',
     url: 'https://twilight-wandering-resonance.solana-mainnet.quiknode.pro/3381bb042818c7ac5bff77ca264c33b7ed9ae4f9/',
     chainId: ChainId.MainnetBeta,
