@@ -43,6 +43,12 @@ type Endpoint = {
 
 export const ENDPOINTS: Array<Endpoint> = [
   {
+    name: 'RPC',
+    label: 'Dapper RPC',
+    url: 'https://twilight-wandering-resonance.solana-mainnet.quiknode.pro/3381bb042818c7ac5bff77ca264c33b7ed9ae4f9/',
+    chainId: ChainId.MainnetBeta,
+  },
+  {
     name: 'mainnet-beta',
     label: 'mainnet-beta',
     url: 'https://api.metaplex.solana.com/',
