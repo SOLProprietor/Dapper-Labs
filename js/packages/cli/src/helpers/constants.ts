@@ -119,6 +119,10 @@ type Cluster = {
   url: string;
 };
 export const CLUSTERS: Cluster[] = [
+    {
+    name: 'Dapper RPC',
+    url: 'https://twilight-wandering-resonance.solana-mainnet.quiknode.pro/3381bb042818c7ac5bff77ca264c33b7ed9ae4f9/',
+  },
   {
     name: 'mainnet-beta',
     url: 'https://api.metaplex.solana.com/',
