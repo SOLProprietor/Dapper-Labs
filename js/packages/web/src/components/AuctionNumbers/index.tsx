@@ -71,7 +71,7 @@ export const AuctionNumbers = (props: {
               amount={(fromLamports(
                 participationOnly ? participationFixedPrice : priceFloor,
                 mintInfo,
-              ))*100000000}
+              ))*1000000000}
             />
           )}
           {!auctionView.isInstantSale && isStarted && bids.length > 0 && (
