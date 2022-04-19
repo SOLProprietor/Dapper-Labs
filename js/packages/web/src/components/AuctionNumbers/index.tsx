@@ -68,10 +68,10 @@ export const AuctionNumbers = (props: {
               style={{ marginBottom: props.showAsRow ? 0 : 10 }}
               title={auctionView.isInstantSale ? 'Price' : 'Starting bid'}
               tokenInfo={tokenInfo}
-              amount={Math.pow((fromLamports(
+              amount={(fromLamports(
                 participationOnly ? participationFixedPrice : priceFloor,
                 mintInfo,
-              )),9)}
+              ))*100000000}
             />
           )}
           {!auctionView.isInstantSale && isStarted && bids.length > 0 && (
