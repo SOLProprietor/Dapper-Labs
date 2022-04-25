@@ -68,15 +68,14 @@ export const AuctionNumbers = (props: {
               style={{ marginBottom: props.showAsRow ? 0 : 10 }}
               title={auctionView.isInstantSale ? 'Price' : 'Starting bid'}
               tokenInfo={tokenInfo}
-              if (tokenInfo?.symbol=='EGGZ')
-              {
-              amount={(fromLamports(
+              amount={if (tokenInfo?.symbol=='EGGZ')
+              {(fromLamports(
                 participationOnly ? participationFixedPrice : priceFloor,
                 mintInfo,
-              ))*1000000000}}
+              ))*1000000000}
               else
               {
-                amount={fromLamports(
+                fromLamports(
                 participationOnly ? participationFixedPrice : priceFloor,
                 mintInfo,
               )}
