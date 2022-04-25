@@ -68,7 +68,7 @@ export const AuctionNumbers = (props: {
               style={{ marginBottom: props.showAsRow ? 0 : 10 }}
               title={auctionView.isInstantSale ? 'Price' : 'Starting bid'}
               tokenInfo={tokenInfo}
-              amount={if (tokenInfo?.symbol=='EGGZ')
+              amount={(if (tokenInfo?.symbol=='EGGZ')
               {(fromLamports(
                 participationOnly ? participationFixedPrice : priceFloor,
                 mintInfo,
@@ -78,7 +78,7 @@ export const AuctionNumbers = (props: {
                 fromLamports(
                 participationOnly ? participationFixedPrice : priceFloor,
                 mintInfo,
-              )}
+              ))}
             />
           )}
           {!auctionView.isInstantSale && isStarted && bids.length > 0 && (
