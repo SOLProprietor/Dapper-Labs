@@ -123,6 +123,12 @@ export const InstructionsModal: React.FC<ModalProps> = ({
             imgSrc={cardProps[2].imgSrc}
             endElement={cardProps[2].endElement}
           />
+          <ContentCard
+               title={cardProps[3].title}
+            description={cardProps[3].description}
+            imgSrc={cardProps[3].imgSrc}
+            endElement={cardProps[3].endElement}
+          />
         </ModalContent>
       </Modal>
     </>
