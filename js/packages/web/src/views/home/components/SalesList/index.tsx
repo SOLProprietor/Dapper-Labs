@@ -44,6 +44,7 @@ export const SalesListView = (props: { collectionMintFilter?: string }) => {
       {!props.collectionMintFilter && (
         <Banner
           src="/img/PondHub3-med.jpg"
+          height=200px
           headingText="Welcome to The Pond."
           subHeadingText="Buy exclusive Dapper Ducks NFTs."
           actionComponent={<HowToBuyModal buttonClassName="secondary-btn" />}
